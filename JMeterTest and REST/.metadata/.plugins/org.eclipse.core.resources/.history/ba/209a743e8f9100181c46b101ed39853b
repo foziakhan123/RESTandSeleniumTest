@@ -1,0 +1,15 @@
+Feature:  Manage details
+As an Admin,
+I want to manage the details of owners in the system,
+So that I can keep up to date information about all owners.
+
+
+Scenario: Add a new owner
+  Given the correct web address
+  When I navigate to the 'Owners' page
+  And I click on the Add new tab
+  And I fill in the details of the owner 
+  The Add a new owner and see all the other owners too
+
+  
+  

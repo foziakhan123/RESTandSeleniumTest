@@ -1,0 +1,18 @@
+package qa.Selenium;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+
+public class OwnerPage {
+	
+	@FindBy (xpath= "/html/body/app-root/app-owner-list/div/div/div/div/button")
+	private WebElement addnewowner;
+	
+	
+	public void clicknewowner() {
+		// TODO Auto-generated method stub
+		addnewowner.click();	
+	}
+	
+
+}

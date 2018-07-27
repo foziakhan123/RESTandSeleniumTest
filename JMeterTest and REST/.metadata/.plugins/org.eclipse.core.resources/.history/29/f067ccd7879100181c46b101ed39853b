@@ -1,0 +1,16 @@
+Feature:  Manage details
+As an Admin,
+I want to manage the details of owners in the system,
+So that I can keep up to date information about all owners.
+
+
+Scenario: Browse the owners available on the website
+  Given the correct web address
+  When I navigate to the 'Owners' page
+  Then I can see all the owners of the pets at the clinic
+
+Scenario: Adding an owner
+  Given the correct web address
+  When I navigate to the 'Owners' page
+  Then I can add a new owner
+
